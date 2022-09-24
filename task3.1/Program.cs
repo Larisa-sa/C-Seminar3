@@ -9,12 +9,12 @@
 // РЕШЕНИЕ ЧЕРЕЗ МАССИВ
 
 Console.WriteLine("Введите координаты первой точки ");
-string[] values = Console.ReadLine().Split(new char[] { ',' });
+string[] values = Console.ReadLine().Split( ',' );
 int x1 = int.Parse(values[0]);
 int y1 = int.Parse(values[1]);
 
 Console.WriteLine("Введите координаты второй точки ");
-string[] values_2 = Console.ReadLine().Split(new char[] { ',' });
+string[] values_2 = Console.ReadLine().Split( ',' );
 int x2 = int.Parse(values_2[0]);
 int y2 = int.Parse(values_2[1]);
 
